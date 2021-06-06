@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Entities.Abstract
+namespace Core.Entities
 {
     //Entity implemente eden class veritabanı tablosudur.
     public interface IEntity
@@ -10,7 +10,6 @@ namespace Entities.Abstract
         //void Add();
         //void Delete();
         //void Update();
-
 
     }
 }

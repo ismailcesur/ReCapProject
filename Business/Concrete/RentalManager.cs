@@ -6,6 +6,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
+
 namespace Business.Concrete
 {
     public class RentalManager : IRentalService
@@ -19,6 +20,7 @@ namespace Business.Concrete
 
         public IResult Add(Rental rental)
         {
+            
             _rentalDal.Add(rental);
             return new SuccessResult();
 
